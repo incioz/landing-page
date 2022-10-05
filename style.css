@@ -53,9 +53,22 @@
 .button {
     background-color: #3882F6;
     color: #fff;
+    margin-top: 16px;
+    width: 135px;
+    height: 40px;
+    border-radius: 12px;
+    border-color: #3882F6;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .right-img {
     float: right;
+    margin-top: 90px;
+    margin-right: 200px;
 }
 
+.img {
+    width: 550px;
+    height:300px;
+}
