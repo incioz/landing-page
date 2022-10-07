@@ -79,17 +79,20 @@
 }
 
 .right-img {
-    margin-top: 90px;
+    margin-top: 110px;
     justify-content: flex-end;
 }
 
 .img {
-    width: 550px;
-    height:300px;
+    padding-top: 120px;
+    text-align: center;
+    background-color: rgb(111, 119, 129);
+    width: 535px;
+    height:250px;
+    font-size: 19px;
 }
 
 .random-info-section {
-    background-color: gainsboro;
     padding-top: 53px;
     height: 485px;
 }
@@ -102,13 +105,11 @@
 }
 
 .box-container {
-    background-color: aquamarine;
     display: flex; 
     justify-content: center;
 }
 
 .boxes {
-    background-color: aqua;
     display: flex;
     justify-content: space-between;
     width: 820px;
@@ -125,12 +126,18 @@
 }
 
 .caption-container {
-    background-color: aliceblue;
     display: flex;
+    justify-content: center;
+}
+
+.captions {
+    display: flex;
+    justify-content: space-between;
+    width:800px;
 }
 
 .caption {
-    background-color: #fff;
     margin-top: 10px;
-    width: 220px;
+    width: 150px;
+    text-align: center;
 }
