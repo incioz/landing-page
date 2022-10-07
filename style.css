@@ -5,27 +5,33 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.first-heading {
+.heading-section {
     background-color: #1f2937;
     color: #fff;
     padding-top: 20px;
-    height: 535px
+    height: 535px;
 }
 
 .top-bar {
     display: flex;
+    justify-content: center;
+}
+
+.header-links {
+    width: 1050px;
     justify-content: space-between;
-    width: 1247px
+    display: flex;
 }
 
 .header-logo {
-    margin-left: 212px;
     font-size: 25px;
     font-weight:900;
+    justify-content: flex-start;
 }
 
 .links {
-    display:flex;
+    display: flex;
+    justify-content: flex-end;
     font-weight: 400px;
     font-size: 18px;
 }
@@ -34,11 +40,21 @@
     margin-right: 30px;
 }
 
+.lower-header {
+    display: flex;
+    justify-content: center;
+}
+
+.para-img {
+    width: 1050px;
+    justify-content: space-between;
+    display: flex;
+}
+
 .left-para {
     width: 450px;
-    float: left;
     margin-top: 120px;
-    margin-left: 210px;
+    justify-content: flex-start;
 }
 
 .awesome {
@@ -63,12 +79,58 @@
 }
 
 .right-img {
-    float: right;
     margin-top: 90px;
-    margin-right: 200px;
+    justify-content: flex-end;
 }
 
 .img {
     width: 550px;
     height:300px;
+}
+
+.random-info-section {
+    background-color: gainsboro;
+    padding-top: 53px;
+    height: 485px;
+}
+
+.info-header {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.box-container {
+    background-color: aquamarine;
+    display: flex; 
+    justify-content: center;
+}
+
+.boxes {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    width: 820px;
+    margin-top: 45px;
+}
+
+.box {
+    border-style: solid;
+    border-color: #3882F6;
+    border-width: 4.5px;
+    border-radius: 15px;
+    height: 170px;
+    width: 170px;
+}
+
+.caption-container {
+    background-color: aliceblue;
+    display: flex;
+}
+
+.caption {
+    background-color: #fff;
+    margin-top: 10px;
+    width: 220px;
 }
