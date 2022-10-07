@@ -38,6 +38,8 @@
 
 .link {
     margin-right: 30px;
+    text-decoration: none;
+    color: #fff;
 }
 
 .lower-header {
@@ -94,10 +96,11 @@
 
 .random-info-section {
     padding-top: 53px;
-    height: 485px;
+    height: 500px;
 }
 
 .info-header {
+    color: #1F2937;
     display: flex;
     justify-content: center;
     font-size: 36px;
@@ -133,11 +136,51 @@
 .captions {
     display: flex;
     justify-content: space-between;
-    width:800px;
+    width:820px;
 }
 
 .caption {
     margin-top: 10px;
-    width: 150px;
+    width: 170px;
     text-align: center;
+    color:#5f5e5e;
+    font-size: 18px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    height: 430px;
+    color: #1F2937;
+}
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style:italic;
+    font-weight: 100;
+    width: 790px;
+}
+
+.author-container {
+    display: flex;
+    justify-content: center;
+}
+
+.author {
+    font-weight: 700;
+    font-size: 23px;
+    width: 730px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.signup-section {
+    height: 1000px;
 }
