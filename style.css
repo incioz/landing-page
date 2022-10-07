@@ -66,16 +66,18 @@
 
 .subtext {
     font-size: 18px;
+    color:#c0c4c9
 }
 
-.button {
+.button,
+.button2 {
     background-color: #3882F6;
     color: #fff;
     margin-top: 16px;
     width: 135px;
-    height: 40px;
-    border-radius: 12px;
-    border-color: #3882F6;
+    height: 37px;
+    border-radius: 8px;
+    border: none;
     font-size: 18px;
     font-weight: bold;
 }
@@ -88,7 +90,8 @@
 .img {
     padding-top: 120px;
     text-align: center;
-    background-color: rgb(111, 119, 129);
+    background-color: #6f7781;
+    color:#dfe3e7;
     width: 535px;
     height:250px;
     font-size: 19px;
@@ -182,5 +185,48 @@
 }
 
 .signup-section {
-    height: 1000px;
+    height: 350px;
+    display:flex;
+    align-items: center;
+}
+
+.blue-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    width: 10000px;
+}
+
+.blue-content {
+    background-color:#3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 1020px;
+    height: 150px;
+}
+
+.left-item {
+    margin-right: 170px;
+}
+
+.call-ta {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.click-button {
+    font-size: 18px;
+    font-weight: 150;
+}
+
+.button2 {
+    border: 2px solid #fff;
+}
+
+.footer-section {
+    height: 100px;
+    background-color: #1F2937;
 }
